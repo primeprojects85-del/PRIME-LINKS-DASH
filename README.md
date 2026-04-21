@@ -1,2 +1,30 @@
-# PRIME-LINKS-DASH
-portal e prime
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de KPIs</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #f4f7f6;
+        }
+        iframe {
+            position: absolute;
+            top: -50px; /* Truque técnico: esconde o banner azul do topo se ele aparecer */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 50px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Substitua o link abaixo pelo link do seu Google Apps Script (o que termina em /exec) -->
+    <iframe src="https://script.google.com/macros/s/AKfycbzETWYMbb9q4EbbVkq1ifmstT07MWe6NDsAgYfuWcqcdtdzVl8uSWEPHSdnBXqc93k5/exec"></iframe>
+</body>
+</html>
